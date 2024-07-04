@@ -1,0 +1,16 @@
+Nama: RAS
+Email: UAD@GMAIL.COM
+Jumlah Tiket: 10
+
+Nama: RASYID
+Email: UAD@GMAIL.COM
+Jumlah Tiket: 12
+
+Nama: RASYID
+Email: UAD@GMAIL.COM
+Jumlah Tiket: 4
+
+Nama: rasyit
+Email: student1@uad.ac.id
+Jumlah Tiket: 2
+

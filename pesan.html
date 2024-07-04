@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Tiket Museum Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR (sama seperti halaman utama) -->
+    <div class="container-navbar">
+        <ul class="ul-navbar">
+            <!-- ... -->
+        </ul>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container-content">
+        <div class="content">
+            <h2>Pesan Tiket</h2>
+            <form action="proses.php" method="post" n>
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="jumlah">Jumlah Tiket:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" required><br><br>
+                <button type="submit">Pesan Tiket</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER (sama seperti halaman utama) -->
+    <div class="container-footer">
+        <!-- ... -->
+    </div>
+</body>
+</html>
+<!-- <div class="container-content">
+
+    Merupakan div yang mengelilingi konten utama dari halaman, mengatur tata letak dan gaya dari area ini.
+    <div class="content">
+    
+    Merupakan div yang berisi konten spesifik yang terletak di dalam container-content.
+    <h2>Pesan Tiket</h2>
+    
+    Judul yang menunjukkan bahwa ini adalah bagian dari halaman untuk memesan tiket.
+    Formulir (<form action="proses.php" method="post">):
+    
+    action="proses.php": Menunjukkan bahwa data formulir akan dikirimkan ke file PHP proses.php untuk diproses.
+    method="post": Metode HTTP yang digunakan untuk mengirimkan data formulir adalah POST.
+    Label dan Input:
+    
+    <label for="nama">Nama:</label> dan <input type="text" id="nama" name="nama" required>
+    
+    Label dan input untuk memasukkan nama pengunjung. id="nama" digunakan untuk mengaitkan label dengan input.
+    required: Atribut yang menandakan bahwa bidang ini harus diisi sebelum formulir dapat dikirim.
+    <label for="email">Email:</label> dan <input type="email" id="email" name="email" required>
+    
+    Label dan input untuk memasukkan alamat email pengunjung.
+    type="email": Memastikan bahwa nilai yang dimasukkan adalah alamat email valid.
+    <label for="jumlah">Jumlah Tiket:</label> dan <input type="number" id="jumlah" name="jumlah" min="1" required>
+    
+    Label dan input untuk memasukkan jumlah tiket yang ingin dipesan.
+    type="number": Menyediakan kontrol input numerik.
+    min="1": Menetapkan bahwa pengguna harus memilih setidaknya satu tiket.
+    required: Menyatakan bahwa bidang ini wajib diisi sebelum formulir dapat dikirim.
+    <button type="submit">Pesan Tiket</button>
+    
+    Tombol submit yang digunakan untuk mengirimkan formulir. -->
